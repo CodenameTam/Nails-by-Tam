@@ -1,0 +1,110 @@
+/*--Global--*/
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 100%;
+    outline: 0;
+    vertical-align: baseline;
+  }
+
+
+/** Base Styles **/
+body {
+  font-family: "Wire One", sans-serif;
+  width: 96%;
+  margin:  0 auto;
+  text-align: center;
+  background-color: #FAF7F7;
+}
+
+
+/******* Header ********/
+
+header {
+  padding-top: 20px;
+}
+
+header h1 {
+  font-family: "Great Vibes", serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+header h1 span {
+  font-family: "Wire One", sans-serif;
+}
+
+
+
+nav {
+  padding: 5px 15px 20px 0;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    margin-left: 18px;
+
+}
+
+#main-pic {
+  width: 206px;
+  height: 335px;
+  padding-top: 10px;
+}
+
+.styleseat {
+  font-size: 28px;
+  text-decoration: none;
+  display: block;
+}
+
+.buttons {
+  padding: 15px 0;
+  margin: auto;
+}
+
+.buttons ul {
+  list-style: none;
+  display: inline-block;
+  
+  
+  /*
+  display: flex;
+  flex-direction: row;
+  */
+}
+
+.buttons li {
+  float: left;
+  padding-left: 20px;
+}
+
+.buttons li img {
+  height: 38px;
+  width: 38px;
+}
+
+
+.featured-work {
+  clear: both;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+
+/** About **/
+
+
+
+/** WORK **/
+
+
+
+/** Contact **/

@@ -10,7 +10,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+   html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -146,18 +146,6 @@ box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
 -webkit-box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
 }
 
-.mb {
-    float: right;
-    background: #222;
-    color: #ffffff;
-    border: none;
-    font-size: 1.2em;
-    padding: 5px 10px;
-    margin: 20px;
-    border-radius: 3px;
-    cursor: pointer;
-    display: none;
-}
 nav a {
     text-decoration: none;
     color: #282828;
@@ -169,7 +157,7 @@ nav a:hover {
     color: #282828;
     text-decoration: none;
 }
-
+/*
 nav ul {
     overflow: hidden;
     color: #fff;
@@ -181,11 +169,12 @@ nav ul {
     -moz-transition: max-height 0.5s;
     -ms-transition: max-height 0.5s;
     -o-transition: max-height 0.5s;
-}
+} */
 
 nav ul li {
     float: right;
     padding: 20px;
+    list-style-type: none;
 }
 
 .open li > a {
@@ -560,25 +549,6 @@ footer .copyright {
 header {
     width: 100%;
     padding: 0;
-}
-
-nav ul {
-    background: #ffffff;
-    width: 100%;
-}
-
-nav ul.show {
-    max-height: 20em;
-}
-
-nav ul li {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 15px;
-}
-
-.mb {
-    display: inline;
 }
 
 .gallery div {

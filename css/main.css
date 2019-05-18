@@ -157,19 +157,14 @@ nav a:hover {
     color: #282828;
     text-decoration: none;
 }
-/*
+
 nav ul {
-    overflow: hidden;
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-align: center;
     transition: max-height 0.5s;
     -webkit-transition: max-height 0.5s;
     -moz-transition: max-height 0.5s;
     -ms-transition: max-height 0.5s;
     -o-transition: max-height 0.5s;
-} */
+}
 
 nav ul li {
     float: right;

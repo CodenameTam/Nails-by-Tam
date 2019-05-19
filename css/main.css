@@ -533,6 +533,7 @@ footer .copyright {
 
 @media screen and (max-width: 480px) {
     /* Mobile Hamburger Menu and Header Styles */
+
 .logo-section {
     float: none;
 }
@@ -581,12 +582,6 @@ li {
     justify-content: center;
 }
 
-/*main {
-    position: relative;
-    top: 100px;
-    height: 560px;
-}
-
 /* -- Services Styles -- */
 
 .services-wrapper {
@@ -604,7 +599,7 @@ li {
 @media screen and (min-width: 1023px) {
 .services-wrapper {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: no-wrap;
         flex-direction: row;
     }
 .about-main {

@@ -599,7 +599,7 @@ li {
 @media screen and (min-width: 1023px) {
 .services-wrapper {
         display: flex;
-        flex-wrap: no-wrap;
+        flex-wrap: nowrap;
         flex-direction: row;
     }
 .about-main {

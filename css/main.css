@@ -599,8 +599,7 @@ li {
 @media screen and (min-width: 1023px) {
 .services-wrapper {
         display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
+        flex-flow: row;
     }
 .about-main {
     width: 90%;

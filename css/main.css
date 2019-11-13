@@ -1,5 +1,5 @@
 /*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
-
+/*NEW*/
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -104,120 +104,130 @@ textarea {
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Tuesday Night';
+    src: url("../fonts/TuesdayNight-Regular.otf"); 
+}
+
 html {
     font-size: 14px;
 }
 
 body {
-    font-family: "Open Sans Condensed", sans-serif;
+    font-family: 'Cormorant', sans-serif;
     font-size: 1.3em;
+    font-weight: 300;
     background-color: #ffffff;
     height: auto;
 }
 
 /* Header Styles */
-
-h1 {
-    font-size: 1.5em;
-    margin: 0;
-}
-
-header {
-    width: 100%;
-    height: auto;
-}
-
 span {
     font-family: 'Great Vibes', cursive;
 }
 
 .logo {
-    float: left;
     padding: 18px;
     font-family: 'Wire One', sans-serif;
 }
 
 nav {
-background: #efefef;
-overflow: hidden;
-width: 100%;
-box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
--moz-box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
--webkit-box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);
+    background: #f4f4f4;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
 }
 
 nav a {
     text-decoration: none;
     color: #282828;
     font-size: 1em;
-    padding: 5px;
+    list-style-type: none;
 }
 
 nav a:hover {
-    color: #282828;
+    color: #F2CED5;
     text-decoration: none;
 }
 
-nav ul {
-    transition: max-height 0.5s;
-    -webkit-transition: max-height 0.5s;
-    -moz-transition: max-height 0.5s;
-    -ms-transition: max-height 0.5s;
-    -o-transition: max-height 0.5s;
-}
 
 nav ul li {
     float: right;
     padding: 20px;
     list-style-type: none;
+    font-size: 1.2em;
+    font-style: italic;
 }
 
-.open li > a {
-    position: relative;
-    color: #000;
-    text-decoration: none;
+
+/* Slide Styles */
+
+.springWrap {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 640px;
 }
 
-.open li > a:hover {
-    color: #000;
-    text-decoration: none;
+.BigPic {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
 }
-
-.open li > a:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.open li > a:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-}
-
-/* Main Styles */
 
 h2 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.2em;
+    font-family: 'Tuesday Night', cursive;
+    font-size: 2.375em;
     margin: 0;
-    padding: 10px 10px 20px 10px;
+    color: #4d4d4d;
+    line-height: 12px;
+}
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    letter-spacing: 1.2px;
+}
+
+.greetingText {
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+
+.slideOne {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    line-height: 3px;
+}
+
+.slideTwo {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 3px;
+}
+
+.slideThree {
+    text-align: left;
+    line-height: 3px;
+}
+
+
+.carousel-caption {
+    right: 0;
+    left: 5%;
 }
 
 /* Booking Styles */
 
 .book {
     padding: 20px 10px 20px 10px;
-    background: rgb(241, 241, 241);
+    background: #ffffff;
     position: static;
     z-index: -1;
     width: 100%;
@@ -226,13 +236,11 @@ h2 {
 -webkit-box-shadow: -2px -7px 47px 9px rgba(0,0,0,0.35);*/
 }
 
-.book h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
+.book h4 {
     text-align: center;
-    font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: 0;
-    padding: 0px 10px 15px 10px;
+    padding: 0px 10px 5px 10px;
 }
 
 .booking {
@@ -250,11 +258,11 @@ h2 {
     align-items: center;
     padding: 15px 0;
     border-radius: 30px;
-    background-color: #222;
-    font-family: Helvetica, Arial, sans-serif;
+    background-color: #F2E9EC;
+    font-family: 'Lato', Arial, sans-serif;
     font-weight: 500;
     font-size: .8em;
-    color: #fff;
+    color: #707070;
     border: none;
     text-align: center;
     text-transform: uppercase;
@@ -263,11 +271,19 @@ h2 {
 /* Services Styles */
 
 .service-heading {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
-    text-align: center;
+    font-family: 'Tuesday Night', sans-serif;
+    font-size: 1.8em;
+    padding: 20px 0 0 50px;
+    color: #4d4d4d;
+}
+
+.sub {
+    font-family: 'Lato', sans-serif;
     font-size: 1.5em;
-    padding-top: 20px;
+    padding: 0 20px 20px;
+    text-transform: uppercase;
+    line-height: 3px;
+    letter-spacing: 1.2px;
 }
 
 .services-wrapper {
@@ -280,10 +296,15 @@ h2 {
     padding: 10px;
 }
 
+.serve {
+    background-color: #F2E9EC;
+}
+
 h5 {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
     font-size: 1.3em;
-    font-weight: 700;
     padding: 15px 0 10px 0;
     margin: 0;
 }
@@ -291,7 +312,9 @@ h5 {
 .services p {
     text-align: center;
     margin: 0;
-    font-size: 1em;
+    font-size: 1.14em;
+    font-style: italic;
+    color: #4d4d4d;
 }
 
 .services {
@@ -304,19 +327,26 @@ h5 {
 
 .service-img {
     display: inline;
-    border-radius: 50%;
 }
 
 /* -- Footer -- */
 footer {
-    background: rgb(241, 241, 241);
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: #141414;
+    color: #fff;
+}
+
+footer h4 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
 }
 
 footer p {
     margin: 0;
+    color: #b9b9b9;
 }
 
 address {
@@ -324,7 +354,7 @@ address {
 }
 
 footer .f-content {
-    border-bottom: solid 1px rgb(185, 185, 185);
+    border-bottom: solid 1px #b9b9b9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -342,7 +372,7 @@ footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #222;
+    background-color: #f4f4f4;;
     border-radius: 50%;
     padding: 25px;
     margin: 10px;
@@ -351,7 +381,7 @@ footer .social-icons p {
 }
 
 .social-icons a {
-    color: #fff;
+    color: #141414;
 }
 
 footer .social-icons p i {
@@ -367,7 +397,6 @@ footer .social {
 }
 
 .contact h4, .social h4{
-    font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 10px;
     font-size: 1.2em;
 }
@@ -380,35 +409,63 @@ footer .copyright {
 
 /* -- About Page Styles -- */
 
-.first-para {
-    padding-top: 10px;
+.aboutWrap{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 640px;
+    background-color: #F2E9EC;
+}
+
+.aboutTitle {
+    padding-left: 20px;
+}
+
+.aboutHeadingOne {
+    color: #707070;
+    font-size: 2.2em;
+}
+
+.aboutHeadingTwo {
+    font-size: 1.3em;
+}
+
+.aboutHeadingThree {
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 3px;
+}
+
+.abt {
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+}
+
+.bio {
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.bioSubHeading {
+    text-align: right;
+    padding: 10px 30px 0 0;
+    font-size: 2em;
+}
+
+.bioSubHeading .second {
+    padding-bottom: 10px;
 }
 
 .bio p {
     padding: 15px 20px 0px 20px;
     font-size: 1em;
+    margin: 0;
+    font-style: italic;
 }
 
-.headshot {
-    width: 100%;
-}
-
-.about-main {
-    margin: 0 auto;
-    width: 95%;
-}
-
-
-.bio-heading {
-    font-family: 'PT Sans', sans-serif;
-    line-height: 2em;
-    font-size: 1.5em;
-    font-weight: 700;
-}
-
-.about-wrapper {
-    padding-bottom: 15px;
-}
 
 /* -- Gallery Page Styles -- */
 
@@ -438,8 +495,6 @@ footer .copyright {
 }
 
 .g-heading {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: 700;
     padding: 15px;
 }
 
@@ -531,20 +586,12 @@ footer .copyright {
    Modify as content requires.
    ========================================================================== */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
     /* Mobile Hamburger Menu and Header Styles */
 
-.logo-section {
-    float: none;
-}
-
 .logo {
-    padding-right: 20px;
-}
-
-header {
-    width: 100%;
-    padding: 0;
+    font-size: 1.7em;
+    padding: 10px 0 20px 10px;
 }
 
 .gallery div {
@@ -554,6 +601,23 @@ header {
 .gallery {
     padding: 0;
 }
+
+.carousel-caption {
+    font-size: .7em;
+}
+
+.sub {
+    font-size: 1.4em;
+}
+
+.service-heading {
+    line-height: 24px;
+}
+
+nav ul a {
+    font-size: .875em;
+}
+
 }
 
 /* TABLET STYLES **/
@@ -585,7 +649,7 @@ li {
 /* -- Services Styles -- */
 
 .services-wrapper {
-    width: 40%;
+    width: 60%;
 }
 
 .services {

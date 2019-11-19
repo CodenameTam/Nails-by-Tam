@@ -329,6 +329,41 @@ h5 {
     display: inline;
 }
 
+/* -- Testimonials -- */
+
+.testimonials {
+    height: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials h2 {
+    font-size: 1.7em;
+}
+
+.testimonials p {
+    font-size: 1.14em;
+    font-style: italic;
+}
+
+.carousel-indicators .active {
+    opacity: 100;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+    background-color: #000000;
+    margin-right: 8px;
+    position: relative;
+    top: 65px;
+}
+
+
 /* -- Footer -- */
 footer {
     text-align: center;

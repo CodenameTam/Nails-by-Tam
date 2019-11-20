@@ -332,12 +332,9 @@ h5 {
 /* -- Testimonials -- */
 
 .testimonials {
-    height: 280px;
+    height: 265px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 40px 30px 0px 30px;
 }
 
 .testimonials h2 {
@@ -362,7 +359,6 @@ h5 {
     position: relative;
     top: 65px;
 }
-
 
 /* -- Footer -- */
 footer {

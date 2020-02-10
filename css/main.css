@@ -122,46 +122,39 @@ body {
 }
 
 /* Header Styles */
-span {
+.logo span {
     font-family: 'Great Vibes', cursive;
 }
 
 .logo {
     padding: 18px;
     font-family: 'Wire One', sans-serif;
-}
-
-nav {
-    background: #f4f4f4;
-    overflow: hidden;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 65px;
-}
-
-nav a {
     text-decoration: none;
-    color: #282828;
-    font-size: 1em;
+    font-size: 30px;
     list-style-type: none;
+    cursor: pointer;
 }
 
-nav a:hover {
+.brand {
+    color: #282828;
+}
+.logo:hover, a:hover {
     color: #F2CED5;
     text-decoration: none;
 }
 
+.navbar {
+    flex-direction: row;
+}
+
 
 nav ul li {
-    float: right;
-    padding: 20px;
+    padding: 15px;
     list-style-type: none;
     font-size: 1.2em;
     font-style: italic;
+    text-align: center;
 }
-
 
 /* Slide Styles */
 
@@ -226,7 +219,7 @@ h3 {
 /* Booking Styles */
 
 .book {
-    padding: 20px 10px 20px 10px;
+    padding: 30px 10px 30px 10px;
     background: #ffffff;
     position: static;
     z-index: -1;
@@ -443,7 +436,7 @@ footer .copyright {
 
 /* -- About Page Styles -- */
 
-.aboutWrap{
+.bigWrap{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -529,11 +522,14 @@ footer .copyright {
 }
 
 .g-heading {
-    padding: 15px;
+    padding: 45px 10px 40px 30px;
 }
 
+/* -- Policy Styles -- */
 
-
+.policyWrap {
+    padding: 30px 25px 10px 25px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */

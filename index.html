@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
@@ -39,14 +40,21 @@
 </head>
 
 <header>
-  <nav>
-    <div class="logo-section">
-      <h1 class="logo"><a href="/index.html">Nails by<span>Tam</span></a></h1>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <h1 class="logo"><a class="brand" href="/index.html">Nails by<span>Tam</span></a></h1>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navList navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="gallery/index.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="about/index.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="policy/index.html">Policies</a></li>
+      </ul>
     </div>
-    <ul>
-      <li><a href="gallery/index.html">Gallery</a></li>
-      <li><a href="about/index.html">About</a></li>
-    </ul>
   </nav>
 </header>
 
@@ -63,7 +71,8 @@
               <div class="slideOne">
                 <h2 class="wow fadeInRight" data-wow-delay="0.2s">welcome!</h2>
                 <h3 class="wow fadeInRight" data-wow-delay="0.4s">THE OFFICIAL WEBSITE</h3>
-                <p class="wow fadeInRight greetingText" data-wow-delay="0.5s">Thanks for visiting, have a look around!</p>
+                <p class="wow fadeInRight greetingText" data-wow-delay="0.5s">Thanks for visiting, have a look around!
+                </p>
               </div>
             </div>
           </div>
@@ -143,12 +152,14 @@
           <h4 class="d-block w-100" alt="...">- Coritha E.</h4>
         </div>
         <div class="carousel-item">
-            <p>"She is everything! Professional, talented, and so easy to talk to. Once you go to Tam, you can never go to anyone else. LOVE her!" </p>
-            <h4 class="d-block w-100" alt="...">- Tarsha P.</h4>
+          <p>"She is everything! Professional, talented, and so easy to talk to. Once you go to Tam, you can never go to
+            anyone else. LOVE her!" </p>
+          <h4 class="d-block w-100" alt="...">- Tarsha P.</h4>
         </div>
         <div class="carousel-item">
-            <p>"I always leave satisfied! I go in, let Tam do her thing, and I walk out feeling like a new woman! She’s the absolute best!!!"</p>
-            <h4 class="d-block w-100" alt="...">- Kaitlyn R.</h4>
+          <p>"I always leave satisfied! I go in, let Tam do her thing, and I walk out feeling like a new woman! She’s
+            the absolute best!!!"</p>
+          <h4 class="d-block w-100" alt="...">- Kaitlyn R.</h4>
         </div>
       </div>
     </div>

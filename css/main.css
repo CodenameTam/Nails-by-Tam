@@ -482,8 +482,8 @@ footer .copyright {
 
 .abt {
     margin: 0 auto;
-    width: 85%;
-    height: 100%;
+    padding-top: 20px;
+    width: 40%;
 }
 
 .bio {

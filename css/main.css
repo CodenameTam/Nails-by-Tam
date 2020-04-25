@@ -122,6 +122,10 @@ body {
     margin: 0 auto;
 }
 
+p {
+    font-style: italic;
+}
+
 /* Header Styles */
 
 
@@ -320,8 +324,6 @@ h5 {
 .services p {
     text-align: center;
     margin: 0;
-    font-size: 1.14em;
-    font-style: italic;
     color: #4d4d4d;
 }
 
@@ -350,11 +352,6 @@ h5 {
 
 .testimonials h2 {
     font-size: 1.7em;
-}
-
-.testimonials p {
-    font-size: 1.14em;
-    font-style: italic;
 }
 
 .carousel-indicators .active {

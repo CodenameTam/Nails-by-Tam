@@ -119,24 +119,32 @@ body {
     font-weight: 300;
     background-color: #ffffff;
     height: auto;
+    margin: 0 auto;
 }
 
 /* Header Styles */
-.logo span {
-    font-family: 'Great Vibes', cursive;
-}
+
 
 .logo {
-    font-family: 'Wire One', sans-serif;
+    font-family: 'viktor-script', serif;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
+    color: #707070;
     list-style-type: none;
+    line-height: 18px;
     cursor: pointer;
 }
 
-.brand {
-    color: #282828;
+.logo span {
+    font-family: 'Cormorant', cursive;
+    text-transform: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-indent: 0px;
+    padding-left: 30px;
+    letter-spacing: 1.5px;
 }
+
 .logo:hover, a:hover {
     color: #F2CED5;
     text-decoration: none;
@@ -155,6 +163,10 @@ nav ul li {
     text-align: center;
 }
 
+header {
+        width: 80%;
+        margin: 0 auto;
+}
 /* Slide Styles */
 
 .springWrap {
@@ -267,6 +279,8 @@ h3 {
     font-size: 1.8em;
     padding: 20px 0 0 50px;
     color: #4d4d4d;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .sub {
@@ -276,6 +290,8 @@ h3 {
     text-transform: uppercase;
     line-height: 3px;
     letter-spacing: 1.2px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .services-wrapper {
@@ -318,7 +334,7 @@ h5 {
 }
 
 .service-img {
-    display: inline;
+    width: 245px;
 }
 
 /* -- Testimonials -- */
@@ -693,12 +709,14 @@ li {
 .services-wrapper {
         display: flex;
         flex-flow: row;
+        justify-content: space-evenly;
+        align-items: baseline;
     }
 .about-main {
     width: 90%;
 }
 .services {
-     padding: 10px 30px 30px 30px;
+     padding: 0 20px;
     }
 
 .service-heading {

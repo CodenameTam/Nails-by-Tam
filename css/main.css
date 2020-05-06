@@ -262,7 +262,7 @@ h3 {
     align-items: center;
     padding: 15px 0;
     border-radius: 30px;
-    background-color: #F2E9EC;
+    background-color: #F2CED5;
     font-family: 'Lato', Arial, sans-serif;
     font-weight: 500;
     font-size: .8em;
@@ -270,6 +270,10 @@ h3 {
     border: none;
     text-align: center;
     text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #F2E9EC;
 }
 
 /* Services Styles */
@@ -301,11 +305,12 @@ h3 {
     flex-flow: row wrap;
     width: 75%;
     margin: 0 auto;
-    padding: 10px;
+    padding-top: 40px;
 }
 
 .serve {
     background-color: #F2E9EC;
+    padding: 40px 0;
 }
 
 h5 {
@@ -338,12 +343,13 @@ h5 {
 /* -- Testimonials -- */
 
 .testimonials {
-    height: 280px;
+    height: 330px;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 70px;
 }
 
 .testimonials h2 {
@@ -364,6 +370,10 @@ h5 {
     top: 65px;
 }
 
+.testSub {
+    padding-bottom: 24px;
+}
+
 /* -- Footer -- */
 footer {
     text-align: center;
@@ -371,6 +381,7 @@ footer {
     flex-direction: column;
     background-color: #141414;
     color: #fff;
+    padding: 40px 0 0 20px;
 }
 
 footer h4 {
@@ -419,6 +430,10 @@ footer .social-icons p {
     color: #141414;
 }
 
+.social-icons a:hover {
+    color: #F2CED5;
+}
+
 footer .social-icons p i {
     font-size: 1.3125em;
 }
@@ -444,17 +459,20 @@ footer .copyright {
 
 /* -- About Page Styles -- */
 
+.pinkWrap {
+    background-color: #F2E9EC;
+}
+
 .bigWrap{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 20px;
+    padding: 60px 0;
     max-width: 640px;
-    background-color: #F2E9EC;
 }
 
 .aboutTitle {
-    padding-left: 20px;
+    padding: 10px 0 20px 20px;
 }
 
 .aboutHeadingOne {
@@ -536,7 +554,7 @@ footer .copyright {
 /* -- Policy Styles -- */
 
 .policyWrap {
-    padding: 30px 25px 10px 25px;
+    padding: 40px 25px 10px 25px;
 }
 /* ==========================================================================
    Helper classes

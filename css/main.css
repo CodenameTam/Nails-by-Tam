@@ -337,7 +337,8 @@ h5 {
 }
 
 .service-img {
-    width: 245px;
+    width: 80px;
+    padding: 20px 0;
 }
 
 /* -- Testimonials -- */

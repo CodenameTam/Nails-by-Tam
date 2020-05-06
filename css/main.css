@@ -11,9 +11,7 @@
    ========================================================================== */
 
    html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+    font-size: 12px;
 }
 
 /*
@@ -109,10 +107,6 @@ textarea {
     src: url("../fonts/TuesdayNight-Regular.otf"); 
 }
 
-html {
-    font-size: 14px;
-}
-
 body {
     font-family: 'Cormorant', sans-serif;
     font-size: 1.3em;
@@ -160,11 +154,13 @@ p {
 }
 
 nav ul li {
-    padding: 15px;
+    padding: 0 25px;
     list-style-type: none;
-    font-size: 1.2em;
-    font-style: italic;
+    font-size: 12px;
     text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .2em;
 }
 
 header {

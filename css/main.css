@@ -149,6 +149,10 @@ p {
     text-decoration: none;
 }
 
+main {
+    background: url("/img/Background.png") repeat fixed center;
+}
+
 .logoLink {
     color: #707070;
 }
@@ -201,6 +205,10 @@ h3 {
     font-style: italic;
     font-size: 1.3em;
     font-weight: 300;
+}
+
+.carousel-caption {
+    color: #4d4d4d;
 }
 
 .slideOne {

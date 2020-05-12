@@ -153,8 +153,12 @@ main {
     background: url("/img/Background.png") repeat fixed center;
 }
 
-.logoLink {
+.logoLink, .dropdown-item{
     color: #707070;
+}
+
+.dropdown-item {
+    padding: 1rem 1.5rem;
 }
 
 nav ul li {

@@ -118,6 +118,7 @@ body {
 
 p {
     font-style: italic;
+    color: #707070;
 }
 
 /* Header Styles */
@@ -569,6 +570,42 @@ footer .copyright {
 .policyWrap {
     padding: 40px 25px 10px 25px;
 }
+
+
+/* -- Shop Page Styles -- */
+
+.shopWrap {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.shopHeading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 60px 0;
+}
+
+.shopSlide {
+    width: 40vw;
+    padding: 0 20px;
+    max-width: 300px;
+}
+
+.shopPText {
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

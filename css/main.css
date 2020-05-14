@@ -597,11 +597,71 @@ footer .copyright {
     line-height: 40px;
 }
 
+.nailQuote {
+    padding: 40px 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2em;
+}
 
 
+/* -- Size Page Styles -- */
+
+.sizeGuide {
+   margin: 0 auto; 
+   padding: 40px 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-flow: row wrap;
+   width: 100%
+}
 
 
+.sizeWrap {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 20px;
+}
 
+.sizePic {
+    height: 120px;
+    padding: 5px;
+}
+
+.measureItem {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 30vh;
+}
+
+.sizeDiy {
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0px 20px 0;
+    text-align: center;
+}
+
+.measurePicWrap {
+    padding: 40px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: row wrap;
+}
+
+.measureText {
+    padding: 10px 0;
+    width: 60%;
+}
+
+.measurePic {
+    max-width: 220px;
+}
 
 
 

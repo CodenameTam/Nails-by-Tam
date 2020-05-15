@@ -664,6 +664,60 @@ footer .copyright {
 }
 
 
+/* -- Custom Order Page Styles -- */
+
+.contactWrap {
+    padding: 60px 40px;
+}
+
+.customHeading {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.form-control {
+    font-size: 1.1em;
+}
+
+.form-row {
+    padding-bottom: 10px;
+}
+
+.customSubheading {
+    padding: 20px 0;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.messageWrap {
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    width: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 30px;
+    background-color: #F2CED5;
+    font-family: 'Lato', Arial, sans-serif;
+    font-weight: 500;
+    font-size: .8em;
+    color: #707070;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.btn-primary:hover {
+    background-color: #e6abbe;
+    border-color: #F2E9EC;
+}
+
 
 
 /* ==========================================================================

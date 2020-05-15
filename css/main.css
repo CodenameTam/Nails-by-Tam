@@ -118,7 +118,7 @@ body {
 
 p {
     font-style: italic;
-    color: #707070;
+    color: #4d4d4d;
 }
 
 /* Header Styles */
@@ -490,7 +490,7 @@ footer .copyright {
 }
 
 .aboutHeadingOne {
-    color: #707070;
+    color: #4d4d4d;
     font-size: 2.2em;
 }
 
@@ -840,6 +840,16 @@ nav ul a {
 
 }
 
+@media screen and (max-width: 415px) {
+    .shopSlide {
+        width: 65vw;
+    }
+
+    .shopHeading {
+        padding: 60px 20px;
+    }
+}
+
 /* TABLET STYLES **/
 
 @media screen and (min-width: 416px) {
@@ -878,7 +888,6 @@ li {
     flex-flow: column wrap;
 }
 }
-
 /* DESKTOP STYLES */
 @media screen and (min-width: 1023px) {
 .services-wrapper {

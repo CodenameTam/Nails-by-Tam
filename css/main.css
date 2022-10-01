@@ -100,9 +100,10 @@ p {
     color: #4d4d4d;
 }
 
+
+
+
 /* Header Styles */
-
-
 .logo {
     font-family: 'viktor-script', serif;
     text-decoration: none;
@@ -152,9 +153,10 @@ nav ul li {
 }
 
 header {
-        width: 88%;
         margin: 0 auto;
+        background-color: #F1C5CF;
 }
+
 /* Slide Styles */
 
 .headerWrap {
@@ -164,28 +166,26 @@ header {
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
+    flex-flow: row wrap;
+    width: 100%;
+    height: fit-content;
+    padding: 60px 20px 0;
 }
 
-.headerText {
-    width: 40%;
-}
 
 .nailsbytamGraphic {
-    width: 50%;
-    height: 100%;
-}
-
-a.spline-watermark {
-    display: none !important;
+    height: 600px;
+    width: 700px;
+    position: relative;
 }
 
 .spline-watermark-tam {
-    position: absolute;
+    position: relative;
     z-index: 3;
-    bottom: 356px;
-    right: 50px;
-    width: 200px;
-    height: 40px;
+    bottom: 60px;
+    right: 0px;
+    width: 100%;
+    height: 70px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -220,6 +220,25 @@ h3 {
     font-style: italic;
     font-size: 1.3em;
     font-weight: 300;
+}
+
+.navbar {
+box-shadow: 2px 18px 10px #deaab63b;
+}
+
+@media screen and (min-width: 992px) {
+.navbar {
+    padding: 10px 8rem;
+}
+
+.headerWrap {
+    padding-top: 0;
+}
+
+.headerText {
+width: 40%;
+max-width: 400px;
+}
 }
 
 

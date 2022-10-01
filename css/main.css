@@ -1,28 +1,9 @@
-/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
-/*NEW*/
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
 
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
 
    html {
     font-size: 12px;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -34,9 +15,7 @@
     text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
+
 
 hr {
     display: block;
@@ -151,7 +130,7 @@ p {
 }
 
 main {
-    background: url("/img/Background.png") repeat fixed center;
+    background-color: #f0bec9;
 }
 
 .logoLink, .dropdown-item{
@@ -178,12 +157,43 @@ header {
 }
 /* Slide Styles */
 
-.springWrap {
+.headerWrap {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.headerText {
+    width: 40%;
+}
+
+.nailsbytamGraphic {
+    width: 50%;
+    height: 100%;
+}
+
+a.spline-watermark {
+    display: none !important;
+}
+
+.spline-watermark-tam {
+    position: absolute;
+    z-index: 3;
+    bottom: 356px;
+    right: 50px;
+    width: 200px;
+    height: 40px;
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
-    max-width: 640px;
-}
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    border-radius: 12px;
+    background: #f0bec9;
+    }
 
 .BigPic {
     display: flex;
@@ -212,33 +222,6 @@ h3 {
     font-weight: 300;
 }
 
-.carousel-caption {
-    color: #292929;
-}
-
-.slideOne {
-    text-align: left;
-    padding: 0;
-    margin: 0;
-    line-height: 3px;
-}
-
-.slideTwo {
-    text-align: right;
-    padding-right: 20px;
-    line-height: 3px;
-}
-
-.slideThree {
-    text-align: left;
-    line-height: 3px;
-}
-
-
-.carousel-caption {
-    right: 0;
-    left: 5%;
-}
 
 /* Booking Styles */
 

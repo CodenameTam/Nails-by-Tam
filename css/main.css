@@ -1,6 +1,4 @@
-
-
-   html {
+html {
     font-size: 12px;
 }
 
@@ -83,7 +81,7 @@ textarea {
 
 @font-face {
     font-family: 'Tuesday Night';
-    src: url("../fonts/TuesdayNight-Regular.otf"); 
+    src: url("../fonts/TuesdayNight-Regular.otf");
 }
 
 body {
@@ -126,15 +124,21 @@ p {
 }
 
 .logoLink:hover {
-    color: #F2CED5;
+    color: #ffffff;
     text-decoration: none;
 }
 
 main {
     background-color: #f0bec9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-.logoLink, .dropdown-item{
+.logoLink,
+.dropdown-item {
     color: #707070;
 }
 
@@ -153,8 +157,8 @@ nav ul li {
 }
 
 header {
-        margin: 0 auto;
-        background-color: #F1C5CF;
+    margin: 0 auto;
+    background-color: #F1C5CF;
 }
 
 /* Slide Styles */
@@ -169,7 +173,7 @@ header {
     flex-flow: row wrap;
     width: 100%;
     height: fit-content;
-    padding: 60px 20px 0;
+    padding: 20px 20px 0;
 }
 
 
@@ -193,7 +197,7 @@ header {
     gap: 6px;
     border-radius: 12px;
     background: #f0bec9;
-    }
+}
 
 .BigPic {
     display: flex;
@@ -223,22 +227,19 @@ h3 {
 }
 
 .navbar {
-box-shadow: 2px 18px 10px #deaab63b;
+    box-shadow: 2px 18px 20px #deaab63b;
 }
 
 @media screen and (min-width: 992px) {
-.navbar {
-    padding: 10px 8rem;
-}
+    .navbar {
+        padding: 10px 8rem;
+    }
 
-.headerWrap {
-    padding-top: 0;
-}
 
-.headerText {
-width: 40%;
-max-width: 400px;
-}
+    .headerText {
+        width: 40%;
+        max-width: 400px;
+    }
 }
 
 
@@ -397,7 +398,7 @@ footer {
     flex-direction: column;
     background-color: #141414;
     color: #fff;
-    padding: 40px 0 0 20px;
+    padding: 10px 0;
 }
 
 footer h4 {
@@ -434,7 +435,8 @@ footer .social-icons p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f4f4f4;;
+    background-color: #f4f4f4;
+    ;
     border-radius: 50%;
     padding: 25px;
     margin: 10px;
@@ -462,7 +464,8 @@ footer .social {
     padding-bottom: 10px;
 }
 
-.contact h4, .social h4{
+.contact h4,
+.social h4 {
     margin-top: 10px;
     font-size: 1.2em;
 }
@@ -477,9 +480,10 @@ footer .copyright {
 
 .pinkWrap {
     background-color: #F2E9EC;
+    min-height: 84.75vh;
 }
 
-.bigWrap{
+.bigWrap {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -529,7 +533,7 @@ footer .copyright {
 }
 
 .bio p {
-    padding: 15px 20px 0px 20px;
+    padding: 40px 20px 0px 20px;
     font-size: 1em;
     margin: 0;
     font-style: italic;
@@ -538,16 +542,16 @@ footer .copyright {
 
 /* -- Gallery Page Styles -- */
 
+.galleryBody {
+
+    background-color: #F2E9EC;
+}
 
 .gallery {
     margin: 0;
-    display: -ms-flexbox;
-    -ms-flexbox-wrap: wrap;
-    -ms-flexbox-direction: column;
-    -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
-    display: -webkit-box;
     display: flex;
+    justify-content: center;
 }
 
 .gallery div {
@@ -567,11 +571,19 @@ footer .copyright {
     padding: 45px 10px 40px 30px;
 }
 
+section.container {
+
+    max-width: 850px;
+}
+
+
 /* -- Policy Styles -- */
 
 .policyWrap {
     padding: 40px 25px 10px 25px;
 }
+
+
 
 
 /* -- Shop Page Styles -- */
@@ -610,13 +622,13 @@ footer .copyright {
 /* -- Size Page Styles -- */
 
 .sizeGuide {
-   margin: 0 auto; 
-   padding: 40px 10px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-flow: row wrap;
-   width: 100%
+    margin: 0 auto;
+    padding: 40px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%
 }
 
 
@@ -722,6 +734,7 @@ footer .copyright {
 
 
 
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -752,7 +765,8 @@ footer .copyright {
     padding: 0;
     position: absolute;
     width: 1px;
-    white-space: nowrap; /* 1 */
+    white-space: nowrap;
+    /* 1 */
 }
 
 /*
@@ -794,8 +808,10 @@ footer .copyright {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
@@ -811,34 +827,34 @@ footer .copyright {
 @media screen and (max-width: 320px) {
     /* Mobile Hamburger Menu and Header Styles */
 
-.logo {
-    font-size: 1.7em;
-    padding: 10px 0 20px 10px;
-}
+    .logo {
+        font-size: 1.7em;
+        padding: 10px 0 20px 10px;
+    }
 
-.gallery div {
-    margin: 0;
-}
+    .gallery div {
+        margin: 0;
+    }
 
-.gallery {
-    padding: 0;
-}
+    .gallery {
+        padding: 0;
+    }
 
-.carousel-caption {
-    font-size: .7em;
-}
+    .carousel-caption {
+        font-size: .7em;
+    }
 
-.sub {
-    font-size: 1.4em;
-}
+    .sub {
+        font-size: 1.4em;
+    }
 
-.service-heading {
-    line-height: 24px;
-}
+    .service-heading {
+        line-height: 24px;
+    }
 
-nav ul a {
-    font-size: .875em;
-}
+    nav ul a {
+        font-size: .875em;
+    }
 
 }
 
@@ -856,87 +872,108 @@ nav ul a {
 
 @media screen and (min-width: 416px) {
 
-/* -- Header Styles -- */
+    /* -- Header Styles -- */
 
-li {
-    list-style-type: none;
+    li {
+        list-style-type: none;
+    }
+
+    /* -- Slide Styles -- */
+
+    #carouselExampleIndicators {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+    }
+
+    .caro-wrap {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* -- Services Styles -- */
+
+    .services-wrapper {
+        width: 60%;
+    }
+
+    .services {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column wrap;
+    }
 }
 
-/* -- Slide Styles -- */
-
-#carouselExampleIndicators {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 600px;
-}
-
-.caro-wrap {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* -- Services Styles -- */
-
-.services-wrapper {
-    width: 60%;
-}
-
-.services {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: column wrap;
-}
-}
 /* DESKTOP STYLES */
 @media screen and (min-width: 1023px) {
-.services-wrapper {
+    .services-wrapper {
         display: flex;
         flex-flow: row;
         justify-content: space-evenly;
         align-items: baseline;
     }
-.about-main {
-    width: 90%;
-}
-.services {
-     padding: 0 20px;
+
+    .about-main {
+        width: 90%;
     }
 
-.service-heading {
-    padding: 15px, 0 0 0;
+    .services {
+        padding: 0 20px;
+    }
+
+    .service-heading {
+        padding: 15px, 0 0 0;
+    }
+
+    .headshot {
+        height: 60%;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .bio-heading {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        align-items: center;
+    }
+
+    .about-wrapper {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
+    .about-main {
+        width: 80%;
+    }
 }
 
-.headshot {
-    height: 60%;
-    width: 60%;
-    margin: 0 auto;
+
+@media screen and (min-width: 1140px) {
+
+    .headerWrap {
+        height: 600px;
+    }
+
+    .headerWrap {
+        padding-top: 0;
+    }
+
+    main {
+        min-height: 83.75vh;
+    }
+
 }
 
-.bio-heading {
-    display: flex;
-    justify-content: center;
-    width: 80%;
-    align-items: center;
-}
-
-.about-wrapper {
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-}
-
-.about-main {
-    width: 80%;
-}
-}
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
@@ -947,11 +984,13 @@ li {
    ========================================================================== */
 
 @media print {
+
     *,
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster */
+        color: #000 !important;
+        /* Black prints faster */
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
@@ -983,6 +1022,7 @@ li {
     pre {
         white-space: pre-wrap !important;
     }
+
     pre,
     blockquote {
         border: 1px solid #999;

@@ -130,7 +130,6 @@ p {
 
 main {
     background-color: #f0bec9;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,9 +177,12 @@ header {
 
 
 .nailsbytamGraphic {
-    height: 600px;
+    height: 393px;
     width: 700px;
     position: relative;
+    zoom: .8;
+    margin-bottom: 3px;
+    right: 20px;
 }
 
 .spline-watermark-tam {
@@ -230,15 +232,30 @@ h3 {
     box-shadow: 2px 18px 20px #deaab63b;
 }
 
+.headerText {
+    padding-top: 40px;
+}
+
 @media screen and (min-width: 992px) {
     .navbar {
         padding: 10px 8rem;
+    }
+
+    .nailsbytamGraphic {
+        height: 600px;
+        width: 700px;
+        position: relative;
+    }
+
+    main {
+        min-height: 100vh;
     }
 
 
     .headerText {
         width: 40%;
         max-width: 400px;
+        padding-top: 0;
     }
 }
 
@@ -965,6 +982,10 @@ section.container {
 
     main {
         min-height: 83.75vh;
+    }
+
+    .spline-watermark-tam {
+        bottom: 118px;
     }
 
 }

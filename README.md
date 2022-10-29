@@ -17,7 +17,3 @@ Uses the theme of header titles and fade ins to create more dynamic effects for 
 ## Gallery Page
 
 Uses bootrap to organize photos for different devices
-
-
- 
-

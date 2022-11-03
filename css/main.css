@@ -128,7 +128,7 @@ p {
     text-decoration: none;
 }
 
-main {
+#headerGreeting  {
     background-color: #f0bec9;
     display: flex;
     flex-direction: column;
@@ -247,7 +247,7 @@ h3 {
         position: relative;
     }
 
-    main {
+    #headerGreeting  {
         min-height: 100vh;
     }
 
@@ -258,6 +258,41 @@ h3 {
         padding-top: 0;
     }
 }
+
+
+/* Chat Styles */
+
+.chat-wrapper {
+    background-color: #f2e8ec;
+    padding: 40px 0;
+}
+
+.App {
+    min-height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    height: auto;
+}
+
+.App section {
+    height: 100%;
+    border-radius: 25px;
+}
+
+p.greeting {
+    padding-top: 20px;
+    max-width: 400px;
+}
+
+.message {
+    padding: 5px;
+}
+
+.message p {
+    padding: 10px 25px;
+    border-radius: 25px;;
+}
+
 
 
 /* Booking Styles */
@@ -973,19 +1008,15 @@ section.container {
 @media screen and (min-width: 1140px) {
 
     .headerWrap {
-        height: 600px;
+        height: 500px;
     }
 
-    .headerWrap {
-        padding-top: 0;
-    }
-
-    main {
+    #headerGreeting {
         min-height: 83.75vh;
     }
 
     .spline-watermark-tam {
-        bottom: 118px;
+        bottom: 70px;
     }
 
 }

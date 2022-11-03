@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b4be3ca.css",
+    "main.js": "/static/js/main.c9e0bd24.js",
+    "static/js/787.fb3c2539.chunk.js": "/static/js/787.fb3c2539.chunk.js",
+    "static/media/NailDecal.png": "/static/media/NailDecal.f318c130b675cfed7fa4.png",
+    "index.html": "/index.html",
+    "main.3b4be3ca.css.map": "/static/css/main.3b4be3ca.css.map",
+    "main.c9e0bd24.js.map": "/static/js/main.c9e0bd24.js.map",
+    "787.fb3c2539.chunk.js.map": "/static/js/787.fb3c2539.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b4be3ca.css",
+    "static/js/main.c9e0bd24.js"
+  ]
+}

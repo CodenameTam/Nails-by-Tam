@@ -1,0 +1,167 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0
+}
+
+body {
+    background-color: #f2e8ec
+}
+
+.App {
+    margin: 0 auto;
+    max-width: 728px;
+    text-align: center
+}
+
+.App header {
+    background-color: #f2e8ec;
+    box-sizing: border-box;
+    color: #707070;
+    height: 10vh;
+    justify-content: space-between;
+    max-width: 728px;
+    min-height: 50px;
+    padding: 10px;
+    width: 100%;
+}
+
+.App .headerTitle,
+.App header {
+    align-items: center;
+    display: flex
+}
+
+.App section {
+    background-color: #efbdc8;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.App main {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.App section,
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main::-webkit-scrollbar {
+    width: .25rem
+}
+
+main::-webkit-scrollbar-track {
+    background: #1e1e24
+}
+
+main::-webkit-scrollbar-thumb {
+    background: #e0479b
+}
+
+form {
+    background-color: #181717;
+    border-radius: 25px 0 0;
+    bottom: 0;
+    display: flex;
+    font-size: 1.5rem;
+    height: 10vh;
+    max-width: 728px;
+    width: 100%
+}
+
+form button {
+    background-color: #282c34;
+    width: 20%
+}
+
+form button:hover {
+    background-color: #b06988
+}
+
+input {
+    background: #3a3a3a;
+    border: none;
+    border-radius: 25px 0 0;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    outline: none;
+    padding: 0 10px;
+    width: 100%
+}
+
+button {
+    background-color: #282c34;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none
+}
+
+.App header button {
+    border-radius: 25px
+}
+
+.App header button:hover {
+    background-color: #5e6269
+}
+
+button:disabled {
+    cursor: not-allowed;
+    opacity: .5
+}
+
+.sign-in {
+    background: #fff;
+    color: #282c34;
+    margin: 0 auto;
+    max-width: 400px
+}
+
+li,
+ul {
+    list-style: none;
+    text-align: left
+}
+
+p.greeting {
+    margin: 0 auto
+}
+
+
+
+.message {
+    align-items: center;
+    display: flex
+}
+
+.sent {
+    flex-direction: row-reverse
+}
+
+.sent p {
+    align-self: flex-end;
+    background: #f1cdd5;
+    color: #131414
+}
+
+.received p {
+    background: #ffe7ec;
+    color: #131414
+}
+
+img {
+    border-radius: 50%;
+    height: 40px;
+    margin: 2px 5px;
+    width: 40px
+}
+
+/*# sourceMappingURL=main.3b4be3ca.css.map*/

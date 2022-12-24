@@ -575,8 +575,7 @@ footer .copyright {
 }
 
 .bioSubHeading {
-    text-align: right;
-    padding: 10px 30px 0 0;
+    padding: 10px 30px 0px 0;
     font-size: 2em;
 }
 
@@ -636,7 +635,24 @@ section.container {
 }
 
 
+/* -- Resources Styles -- */
 
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards-container .card {
+    margin: 30px 10px 0;
+}
+
+.cards-container p {
+padding: 0;
+}
+
+.cards-container h5 {
+    padding: 0;
+}
 
 /* -- Shop Page Styles -- */
 

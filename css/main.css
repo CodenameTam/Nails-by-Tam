@@ -643,7 +643,8 @@ section.container {
 }
 
 .cards-container .card {
-    margin: 30px 10px 0;
+    margin: 30px 15px 0;
+    width: 100%;
 }
 
 .cards-container p {
@@ -1033,6 +1034,11 @@ padding: 0;
 
     .spline-watermark-tam {
         bottom: 70px;
+    }
+
+    .cards-container .card {
+        margin: 30px 10px 0;
+        width: 30%;
     }
 
 }
